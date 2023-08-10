@@ -1,0 +1,143 @@
+
+.top-header{
+    height:52px;
+    background-color:rgb(30, 50, 56);
+    padding-bottom:10px;
+}
+
+.right-header{
+    height:47px; 
+    width:500px;
+    background-color:rgb(30, 50, 56);
+    display:flex;
+    flex-direction:row;
+}
+
+.tabs{
+    height:42px;
+    width:370px;
+    display:flex;
+    flex-direction:row;
+    align-items:center; 
+    margin-top:6px;
+}
+
+.tabs div{
+    height:30px; 
+    padding: 0px 10px;
+    color:rgb(241, 239, 239);
+    font-size:13px;
+}
+
+.search-button{
+    height:31px; 
+    width:30px; 
+    border-left-color:rgb(252,124,87);
+    margin-left:-3px;
+    margin-right:3px;
+    border-width:0.5px;
+    background-color:rgb(252,124,87);
+}
+
+.logo-container{
+    padding:0px 15px;
+    height:184px;
+    display:flex;
+    justify-content:center;
+    background-color:rgb(30,50,56);
+}
+
+.logo{
+    width:171px;
+    height:171px;
+    margin-top:4px;
+    margin-right:3px;
+    border-color:white;
+    border-style:solid;
+    border-width:2px;
+}
+
+.logo img{
+    width:93%; 
+    background-color:white;
+    margin:5px;
+}
+
+.bottom-header-container{
+    background-color:rgb(40,50,56);
+}
+
+
+
+.title{
+    height:39.6px;
+    margin-top:10px;
+    color:white;
+    font-family:Roboto,Arial;
+    font-size:31px;
+    display:flex;
+    justify-content:center;
+    border-width:1px;
+    min-width:650px;
+}
+
+.sub-title{
+    height:20px; 
+    margin-top:13px;
+    display:flex;
+    font-family:Arial;
+    font-size:13px;
+    
+    justify-content:center;
+    color:white;
+    min-width:420px;
+}
+
+.bottom-header{
+    height:79px;
+    margin-left:33.7px;
+    margin-right:33.7px;
+    padding:10px;
+    
+}
+
+.bottom-header-icon{
+    height:42px;
+    width:42px;
+    border-radius:28px;
+    margin-top:9px;
+    
+}
+
+.bottom-header-icon i{
+    margin:14px;
+    color:white;
+}
+
+.bottom-header-icon:hover{
+    border-width:2px;
+    border-style:solid;
+    border-color:white;
+}
+
+p{
+    color:white;
+    font-family:Roboto,arial;
+    font-size:13.5px;
+}
+
+
+
+.subscribe{
+    padding:10px;
+    height:20px;
+    display:flex;
+    justify-content:center; 
+    align-items:center; 
+    background-color:rgb(43,43,43);
+    color:rgb(235, 227, 227);
+    font-family:Roboto;
+    font-size:20px;
+    text-decoration:underline;
+    text-decoration-thickness:1px;
+}

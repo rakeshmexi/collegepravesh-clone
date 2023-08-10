@@ -1,0 +1,135 @@
+.main-body{
+    display:flex;
+    margin-top:100px;
+    height:auto;   
+    justify-content:space-between;
+}
+
+.overview{
+    height:50px;
+    margin-left:30px;
+    padding-left:15px;
+    margin-top:30px;
+    margin-bottom:15px;
+    width:880px;
+    border-bottom-color:rgb(236, 232, 232); 
+    border-top:white; 
+    border-left:white; 
+    border-right:white;
+}
+
+.basic-info{
+    height:30px;
+    width:850px;
+    display:flex;
+}
+
+.font-style{
+    font-family:Roboto,Arial;
+    color:rgb(51,51,51);
+}
+
+.font-style1{
+    height:30px;
+    width:280px;
+    font-family:Roboto,arial;
+    color:rgb(51, 47, 47);
+    font-size:13px;
+    font-weight:bold;
+    padding-left:5px;
+}
+
+.font-style2{
+    height:30px;
+    font-family:Roboto; 
+    font-size:13px;
+    flex:1;
+    padding-left:5px;
+}
+
+.border1{
+    border-width:1px;
+    border-style:solid;
+    border-color:rgb(245,242,242);
+}
+
+span{
+    font-weight:bold;
+    color:rgb(226, 66, 66);
+    animation-name:blink;
+    animation-duration:1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes blink{
+    50%{
+        opacity:0;
+    }
+}
+
+.box{
+    height:80px;
+    display:flex;
+    justify-content:start;
+    align-items:center;
+    margin-left:50px; 
+    margin-right:20px;
+}
+
+.left-box{
+    width:60px; 
+    height:35px; 
+    
+}
+
+.border-white{
+    border-width:1px;
+    border-style:solid;
+    border-top-color:white; 
+    border-left-color:white; 
+    border-right-color:rgb(236,232,232);
+    border-bottom-color:white;
+}
+
+.right-box{
+    padding-left:15px;
+    margin-top:-3px;
+    font-family:Roboto;
+    font-size:14px;
+    display:flex;
+    flex-direction:column;
+    height:39px;
+}
+
+.campus-facility{
+    height:50px;
+    width:300px;
+    margin-left:35px;
+    margin-top:12px;
+}
+
+.facility-icon{
+    height:32px;
+    width:32px;
+    border-radius:17px;
+}
+
+.facility-icon:hover,.icon:hover{
+    background-color:#363a3f;
+    color:white;
+}
+
+.icon{
+    color: #363a3f; 
+    font-size:20px;
+}
+
+.application-tab{
+    height:40px;
+    margin-left:100px;
+}
+
+.left-tab{
+    height:36px;
+}
